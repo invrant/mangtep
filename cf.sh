@@ -5,7 +5,7 @@ NC='\e[0m'
 MYIP=$(wget -qO- icanhazip.com);
 echo "Checking VPS"
 apt install jq curl -y
-DOMAIN=sg.nataserver.my.id
+DOMAIN=nataserver.my.id
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
 SUB_DOMAIN=${sub}.sg.nataserver.my.id
 CF_ID=nataslametsuberkah@gmail.com
