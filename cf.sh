@@ -7,7 +7,7 @@ echo "Checking VPS"
 apt install jq curl -y
 DOMAIN=nataserver.my.id
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.sg.nataserver.my.id
+SUB_DOMAIN=${sub}.nataserver.my.id
 CF_ID=nataslametsuberkah@gmail.com
 CF_KEY=d7646d2edd8f564e0da635c6b8b71c5fba0e2
 set -euo pipefail
