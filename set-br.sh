@@ -19,9 +19,9 @@ account default
 host smtp.gmail.com
 port 587
 auth on
-user Nata
-from nataslametsuberkah@gmail.com
-password password 
+user natabackup1@gmail.com
+from natabackup1@gmail.com
+password  mseedfoidspcikem
 logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
