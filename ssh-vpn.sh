@@ -15,9 +15,9 @@ ver=$VERSION_ID
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=vpnstores.net
-organizationalunit=vpnstores.net
-commonname=vpnstores.net
+organization=www.vpnstores.net
+organizationalunit=www.vpnstores.net
+commonname=www.vpnstores.net
 email=admin@vpnstores.net
 
 # simple password minimal
@@ -236,7 +236,7 @@ netfilter-persistent reload
 cd /usr/bin
 wget -O add-host "https://raw.githubusercontent.com/Nataslamet/Natascript/main/add-host.sh"
 wget -O about "https://raw.githubusercontent.com/Nataslamet/Natascript/main/about.sh"
-wget -O menu "https://raw.githubusercontent.com//Nataslamet/Natascript/main/menu.sh"
+wget -O menu "https://raw.githubusercontent.com/Nataslamet/Natascript/main/menu.sh"
 wget -O usernew "https://raw.githubusercontent.com/Nataslamet/Natascript/main/usernew.sh"
 wget -O trial "https://raw.githubusercontent.com/Nataslamet/Natascript/main/trial.sh"
 wget -O hapus "https://raw.githubusercontent.com/Nataslamet/Natascript/main/hapus.sh"
