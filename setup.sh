@@ -91,7 +91,6 @@ echo "   - Telegram                : T.me/Horasss"  | tee -a log-install.txt
 echo "   - Instagram               : @horas_96"  | tee -a log-install.txt
 echo "   - Whatsapp                : 082386143124"  | tee -a log-install.txt
 echo "   - Facebook                : https://www.facebook.com/Marlosirega" | tee -a log-install.txt
-echo "   - Edited By Nataserver
 echo "------------------Script Created By Horas Marolop Amsal Siregar-----------------" | tee -a log-install.txt
 echo ""
 echo " Reboot 15 Sec"
