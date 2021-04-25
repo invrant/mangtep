@@ -15,10 +15,10 @@ ver=$VERSION_ID
 country=ID
 state=Indonesia
 locality=Indonesia
-organization=Nataserver.my.id
-organizationalunit=Nataserver.my.id
-commonname=Nataserver.my.id
-email=Nataserver.my.id
+organization=vpnstores.net
+organizationalunit=vpnstores.net
+commonname=vpnstores.net
+email=admin@vpnstores.net
 
 # simple password minimal
 wget -O /etc/pam.d/common-password "https://raw.githubusercontent.com/Nataslamet/Natascript/main/password"
