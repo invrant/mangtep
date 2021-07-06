@@ -26,12 +26,12 @@ logfile ~/.msmtp.log
 EOF
 chown -R www-data:www-data /etc/msmtprc
 cd /usr/bin
-wget -O autobackup "https://raw.githubusercontent.com/Nataslamet/Natascript/main/autobackup.sh"
-wget -O backup "https://raw.githubusercontent.com/Nataslamet/Natascript/main/backup.sh"
-wget -O bckp "https://raw.githubusercontent.com/Nataslamet/Natascript/main/bckp.sh"
-wget -O restore "https://raw.githubusercontent.com/Nataslamet/Natascript/main/restore.sh"
-wget -O strt "https://raw.githubusercontent.com/Nataslamet/Natascript/main/strt.sh"
-wget -O limit-speed "https://raw.githubusercontent.com/Nataslamet/Natascript/main/limit-speed.sh"
+wget -O autobackup "https://raw.githubusercontent.com/tinvrant/mangtep/main/autobackup.sh"
+wget -O backup "https://raw.githubusercontent.com/invrant/mangtep/main/backup.sh"
+wget -O bckp "https://raw.githubusercontent.com/invrant/mangtep/main/bckp.sh"
+wget -O restore "https://raw.githubusercontent.com/invrant/mangtep/main/restore.sh"
+wget -O strt "https://raw.githubusercontent.com/invrant/mangtep/main/strt.sh"
+wget -O limit-speed "https://raw.githubusercontent.com/invrant/mangtep/main/limit-speed.sh"
 chmod +x autobackup
 chmod +x backup
 chmod +x bckp
