@@ -27,7 +27,7 @@ clear
 echo ""
 echo " Done Install Webmin"
 echo " $IP:10000"
-echo " AutoScriptVPS By  Horasss"
+echo " AutoScriptVPS By  Tareq Agil"
 }
 function restart () {
 echo " Restarting Webmin"
@@ -37,7 +37,7 @@ echo " Start Uninstall Webmin"
 clear
 echo ""
 echo " Done Restart Webmin"
-echo " AutoScriptVPS By  Horasss"
+echo " AutoScriptVPS By  Tareq Agil"
 }
 function uninstall () {
 echo " Removing Repositori Webmin"
@@ -65,7 +65,7 @@ echo -e " Status $sts"
 echo -e "  1. Install Webmin"
 echo -e "  2. Restart Webmin"
 echo -e "  3. Uninstall Webmin"
-echo -e " AutoScriptVPS By  Nataserver"
+echo -e " AutoScriptVPS By Tareq Agil"
 echo -e " Press CTRL+C to return"
 read -rp " Please Enter The Correct Number : " -e num
 if [[ "$num" = "1" ]]; then
